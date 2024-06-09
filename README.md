@@ -1,6 +1,6 @@
 # FacialBRDFCapture
 Personal implementation of disney's paper:  
-'Single-Shot High-Quality Facial Geometry and Skin Appearance Capture'  
+2020, J Riviere et al., Single-Shot High-Quality Facial Geometry and Skin Appearance Capture  
 https://www.youtube.com/watch?v=H_iiIl4EqHU
 
 To apply the techniques discussed in the paper, a data preparation step is required to process the captured images. Although I implemented the data preparation step in a separate project, this repository will only include the main part of the paper. Instead, I will provide pre-processed data so that you can run the main algorithm directly. 
