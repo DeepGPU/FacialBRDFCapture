@@ -19,3 +19,5 @@ http://ceres-solver.org/installation.html
 
 ## Pipeline
 ![pipeline](https://github.com/phgphg777/FacialBRDFCapture/assets/57425078/4c57ec7c-2644-4d58-ab5b-a6d87be52ac3)
+
+![스크린샷 2024-06-09 214222](https://github.com/phgphg777/FacialBRDFCapture/assets/57425078/ec6c0f89-ee03-47d0-9bb7-f225ec7780e9)
