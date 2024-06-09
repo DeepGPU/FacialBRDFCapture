@@ -5,6 +5,13 @@ https://www.youtube.com/watch?v=H_iiIl4EqHU
 
 To apply the techniques discussed in the paper, a data preparation step is required to process the captured images. Although I implemented the data preparation step in a separate project, this repository will only include the main part of the paper. Instead, I will provide pre-processed data so that you can run the main algorithm directly. 
 
+My implementation is different from the paper in that:
+- I collected light samples from rectangular area lights instead of the environment light captured by a mirror ball, potentially introducing considerable errors due to the studio lights likely being positioned directly in front of the actor's face, while environment light models distant light sources.
+- I used GGX brdf models instead of two lobes Phong model.
+- I solved for roughness, specular scale, or both (controlled by flags), whereas the paper only addresses specular scale.
+- I implemented significantly more regularization terms than those discussed in the paper.
+- Cross-polarization is not considered, as we assume a carefully designed number of cameras in a single shot, which should be sufficient for separating diffuse and specular components.
+- Subsurface scattering approximation is not considered.
 
 ## Build Requirements
 * Microsoft's Visual Studio 2019 or newer
