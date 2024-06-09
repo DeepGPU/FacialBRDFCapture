@@ -26,10 +26,10 @@ http://ceres-solver.org/installation.html
 
 
 ## Final output (zoom in)
-![Example Image1](Data/example/output/1/predicted_diffuse_31.jpg)
+![Example Image1](Data/example/Output/1/predicted_diffuse_31.jpg)
 
-![Example Image2](Data/example/output/1/predicted_roughness_31.jpg)
+![Example Image2](Data/example/Output/1/predicted_roughness_31.jpg)
 
-![Example Image3](Data/example/output/1/predicted_normal_31.jpg)
+![Example Image3](Data/example/Output/1/predicted_normal_31.jpg)
 
-![Example Image3](Data/example/output/1/predicted_height_31.jpg)
+![Example Image3](Data/example/Output/1/predicted_height_31.jpg)
