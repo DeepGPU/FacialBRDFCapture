@@ -13,6 +13,13 @@ My implementation is different from the paper in that:
 - Cross-polarization is not considered, as we assume a carefully designed number of cameras in a single shot, which should be sufficient for separating diffuse and specular components.
 - Subsurface scattering approximation is not considered.
 
+
+## Reference
+2018, P Gotardo et al., Practical Dynamic Facial Appearance Modeling and Acquisition  
+2020, J Riviere et al., Single-Shot High-Quality Facial Geometry and Skin Appearance Capture  
+2022, D Azinović et al., High-Res Facial Appearance Capture from Polarized Smartphone Images  
+
+
 ## Build Requirements
 * Microsoft's Visual Studio 2019 or newer
 * Google's ceres solver
