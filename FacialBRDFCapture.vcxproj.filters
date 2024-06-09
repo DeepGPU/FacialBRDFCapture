@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source files\common">
+      <UniqueIdentifier>{bef7fd47-d8d8-42b5-80a8-b15b8eb270bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\AppearanceSolver.h">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\CeresSolver.h">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\pch.h">
+      <Filter>Source files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\debug.h">
+      <Filter>Source files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\utils.h">
+      <Filter>Source files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AccuracyCost.h">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BRDFs.h">
+      <Filter>Source files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SmoothTypes.h">
+      <Filter>Source files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\AppearanceSolver.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\main.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\createProblem.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\pch.cpp">
+      <Filter>Source files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\utils.cpp">
+      <Filter>Source files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SmoothCost.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

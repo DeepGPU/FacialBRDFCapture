@@ -1,0 +1,50 @@
+{
+	"Coordinates": "Unreal",
+	"RectLights": [
+		{
+			"name": "RectLight105",
+			"position": [ -177.265, -31.2567, 160 ],
+			"rotation": [ 0, 0, 10 ],
+			"color": [ 1, 1, 1 ],
+			"intensity": 3000,
+			"extent": [ 170, 150 ],
+			"numSamples": [ 15, 10 ]
+		},
+		{
+			"name": "RectLight106",
+			"position": [ -137.888, 115.702, 160 ],
+			"rotation": [ 0, 0, -40 ],
+			"color": [ 1, 1, 1 ],
+			"intensity": 3000,
+			"extent": [ 170, 150 ],
+			"numSamples": [ 15, 10 ]
+		},
+		{
+			"name": "RectLight107",
+			"position": [ 0, 180, 160 ],
+			"rotation": [ 0, 0, -90 ],
+			"color": [ 1, 1, 1 ],
+			"intensity": 3000,
+			"extent": [ 170, 150 ],
+			"numSamples": [ 15, 10 ]
+		},
+		{
+			"name": "RectLight108",
+			"position": [ 137.888, 115.702, 160 ],
+			"rotation": [ 0, 0, -140 ],
+			"color": [ 1, 1, 1 ],
+			"intensity": 3000,
+			"extent": [ 170, 150 ],
+			"numSamples": [ 15, 10 ]
+		},
+		{
+			"name": "RectLight109",
+			"position": [ 177.265, -31.2567, 160 ],
+			"rotation": [ 0, 0, 170 ],
+			"color": [ 1, 1, 1 ],
+			"intensity": 3000,
+			"extent": [ 170, 150 ],
+			"numSamples": [ 15, 10 ]
+		}
+	]
+}

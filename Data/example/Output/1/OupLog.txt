@@ -1,0 +1,122 @@
+
+
+
+Domain              :  1, 1, 1022, 1022
+View weight min     :  0.001
+View weight bias    :  8
+Zero radius         :  4
+Channel weight      :  [1, 1, 1]
+NormalMode          :  heightmap2018
+DifferenceMode      :  forward2
+
+[Paramerter : Diffuse]
+Lower bound         :  0
+SmoothCost_one      :  weight=[0.5, 1, 1],  exponet=1
+
+[Paramerter : Specular]
+bConstant           :  true
+[Paramerter : Roughness]
+SmoothCost_one      :  weight=0.05,  exponet=1
+
+[Paramerter : Height]
+SmoothCost_zero     :  weight=0.01,  exponet=1,  base=0
+SmoothCost_one      :  weight=0.1,  exponet=1
+
+Shadow              :  On
+Max Iterations      :  15
+
+-------------Now, Solve!-------------
+
+
+
+Domain              :  1, 1, 1022, 1022
+View weight min     :  0.001
+View weight bias    :  8
+Zero radius         :  4
+Channel weight      :  [1, 1, 1]
+NormalMode          :  heightmap2018
+DifferenceMode      :  forward2
+
+[Paramerter : Diffuse]
+Lower bound         :  0
+SmoothCost_one      :  weight=[0.5, 1, 1],  exponet=1
+
+[Paramerter : Specular]
+bConstant           :  true
+[Paramerter : Roughness]
+SmoothCost_one      :  weight=0.05,  exponet=1
+
+[Paramerter : Height]
+SmoothCost_zero     :  weight=0.01,  exponet=1,  base=0
+SmoothCost_one      :  weight=0.1,  exponet=1
+
+Shadow              :  On
+Max Iterations      :  31
+
+-------------Now, Solve!-------------
+Iter 0 :
+	ConstantSpecular    :  1.000000
+Iter 1 :
+	ConstantSpecular    :  0.428620
+Iter 2 :
+	ConstantSpecular    :  0.673684
+Iter 3 :
+	ConstantSpecular    :  0.804984
+Iter 4 :
+	ConstantSpecular    :  0.805150
+Iter 5 :
+	ConstantSpecular    :  0.885265
+Iter 6 :
+	ConstantSpecular    :  0.918005
+Iter 7 :
+	ConstantSpecular    :  0.925109
+Iter 8 :
+	ConstantSpecular    :  0.926732
+Iter 9 :
+	ConstantSpecular    :  0.933377
+Iter 10 :
+	ConstantSpecular    :  0.999138
+Iter 11 :
+	ConstantSpecular    :  1.000257
+Iter 12 :
+	ConstantSpecular    :  1.026720
+Iter 13 :
+	ConstantSpecular    :  1.045667
+Iter 14 :
+	ConstantSpecular    :  1.056249
+Iter 15 :
+	ConstantSpecular    :  1.075603
+Iter 16 :
+	ConstantSpecular    :  1.076042
+Iter 17 :
+	ConstantSpecular    :  1.079751
+Iter 18 :
+	ConstantSpecular    :  1.079857
+Iter 19 :
+	ConstantSpecular    :  1.082308
+Iter 20 :
+	ConstantSpecular    :  1.083930
+Iter 21 :
+	ConstantSpecular    :  1.086298
+Iter 22 :
+	ConstantSpecular    :  1.095617
+Iter 23 :
+	ConstantSpecular    :  1.099672
+Iter 24 :
+	ConstantSpecular    :  1.101299
+Iter 25 :
+	ConstantSpecular    :  1.105208
+Iter 26 :
+	ConstantSpecular    :  1.105746
+Iter 27 :
+	ConstantSpecular    :  1.106001
+Iter 28 :
+	ConstantSpecular    :  1.106569
+Iter 29 :
+	ConstantSpecular    :  1.106574
+Iter 30 :
+	ConstantSpecular    :  1.106988
+Iter 31 :
+	ConstantSpecular    :  1.107149
+-------All Iteration Complete!-------
+

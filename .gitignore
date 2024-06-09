@@ -1,0 +1,11 @@
+!Data/
+Data/*
+!Data/example/
+!Data/scene6/
+#Data/example/Output/
+
+.vs/
+
+Build/
+Build/Debug/Intermediate/
+Build/Release/Intermediate/
